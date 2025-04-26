@@ -43,11 +43,9 @@ def draw_clock(canvas, center_x, center_y, radius, city_time, city_name):
     # Teken een zwart bolletje in het midden van de klok
     canvas.create_oval(center_x - 5, center_y - 5, center_x + 5, center_y + 5, fill="gray")
 
-    # Voeg de datum toe (30px naar beneden)
+    # Voeg de datum toe
     date_text = city_time.strftime("%d-%m-%Y")
-    date_offset = 30  # Verplaatsing naar beneden
-
-    date_center_y = center_y + date_offset
+    date_center_y = center_y + 30
     date_width = 80
     date_height = 20
     canvas.create_rectangle(center_x - date_width/2, date_center_y - date_height/2,
