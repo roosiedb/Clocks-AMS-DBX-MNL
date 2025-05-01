@@ -4,6 +4,8 @@ While waiting for my wife to travel from **Manila (Philippines)** to **Amsterdam
 
 I used **ChatGPT** to generate a Python script that displays **three analog clocks**, each showing the time in one of these cities. After some tweaking and customization, this is the final result.
 
+![Clock Screenshot](clock-screenshot.png)
+
 ## 🕒 Features
 
 - Analog clocks for:
